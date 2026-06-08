@@ -5,23 +5,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Readiness — Условия использования</title>
 <style>
-:root{color-scheme:light}
-body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:720px;margin:0 auto;padding:40px 20px 80px;color:#1c1c1e;background:#fff}
-h1{font-size:28px;margin:0 0 4px}
-.eff{color:#8e8e93;margin:0 0 24px;font-size:14px}
-h2{font-size:19px;margin:30px 0 8px}
-p,li{color:#3a3a3c}
-a{color:#0a84ff}
-.note{margin-top:40px;padding:14px 16px;background:#fff4e5;border-radius:10px;font-size:14px;color:#8a6d3b}
-nav{margin-bottom:24px;font-size:14px}
-nav a{margin-right:16px}
-footer{margin-top:48px;font-size:13px;color:#aeaeb2}
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+html{background:#080b0a}
+body{margin:0;min-height:100vh;
+  background-image:radial-gradient(900px 520px at 50% -12%, rgba(51,227,163,.16), rgba(8,11,10,0) 62%);
+  color:#aab4b1;
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"SF Pro Rounded","Segoe UI",Roboto,system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding:46px 22px 90px}
+.brand{display:flex;align-items:center;gap:12px;margin-bottom:30px}
+.mark{width:42px;height:42px;border-radius:50%;flex:none;position:relative;
+  background:linear-gradient(135deg,#33e3a3,#1cb0b8);box-shadow:0 6px 20px rgba(51,227,163,.35)}
+.mark::after{content:"";position:absolute;inset:9px;border:2px dashed rgba(255,255,255,.92);border-radius:50%}
+.word{font-weight:800;font-size:20px;color:#fff;letter-spacing:-.01em}
+h1{font-size:30px;font-weight:800;color:#fff;letter-spacing:-.02em;margin:0 0 6px}
+.eff{color:#76817e;font-size:14px;margin:0 0 26px}
+.lead{font-size:18px;color:#eef3f2}
+h2{font-size:18px;font-weight:700;color:#fff;margin:32px 0 8px}
+p,li{color:#aab4b1}
+strong{color:#eaf6f2;font-weight:600}
+a{color:#33e3a3;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{padding-left:20px}li{margin:4px 0}
+.note{margin-top:40px;padding:16px 18px;background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.08);border-radius:14px;font-size:14px;color:#9aa5a2}
+nav{display:flex;gap:18px;margin-bottom:26px;font-size:14px}
+footer{margin-top:52px;font-size:13px;color:#586460}
 </style>
 </head>
 <body>
+<div class="wrap">
+<header class="brand"><div class="mark"></div><span class="word">Readiness</span></header>
 <nav><a href="terms-en.html">English</a><a href="privacy-ru.html">Политика конфиденциальности</a></nav>
 <h1>Условия использования</h1>
-<p class="eff">Readiness · Дата вступления в силу: [ДАТА]</p>
+<p class="eff">Readiness · Дата вступления в силу: 7 июня 2026</p>
 
 <p>Пожалуйста, прочитайте эти Условия перед использованием Readiness («приложение»). Используя приложение, вы соглашаетесь с ними.</p>
 
@@ -47,18 +65,19 @@ footer{margin-top:48px;font-size:13px;color:#aeaeb2}
 <p>Приложение предоставляется «как есть» и «как доступно», без каких-либо гарантий, явных или подразумеваемых. Мы не гарантируем точность баллов, а также бесперебойную и безошибочную работу приложения.</p>
 
 <h2>6. Ограничение ответственности</h2>
-<p>В максимально допустимой законом степени [ИМЯ РАЗРАБОТЧИКА / ЮРЛИЦО] не несёт ответственности за любые косвенные, случайные, специальные или вытекающие убытки, связанные с использованием приложения.</p>
+<p>В максимально допустимой законом степени разработчик Readiness не несёт ответственности за любые косвенные, случайные, специальные или вытекающие убытки, связанные с использованием приложения.</p>
 
 <h2>7. Изменения</h2>
 <p>Мы можем время от времени обновлять эти Условия. Продолжение использования приложения после вступления изменений в силу означает ваше согласие с обновлёнными Условиями.</p>
 
 <h2>8. Применимое право</h2>
-<p>Эти Условия регулируются законодательством [ЮРИСДИКЦИЯ], без учёта коллизионных норм.</p>
+<p>Эти Условия регулируются применимым законодательством страны вашего проживания.</p>
 
 <h2>9. Контакты</h2>
-<p>Вопросы — пишите на <a href="mailto:[EMAIL]">[EMAIL]</a>.</p>
+<p>Вопросы — пишите на <a href="mailto:zzcredi@gmail.com">zzcredi@gmail.com</a>.</p>
 
 <p class="note">⚠️ Это стартовый шаблон, а не юридическая консультация. Проверьте его (и при необходимости проконсультируйтесь с юристом) перед публикацией — особенно название юрлица, юрисдикцию и раздел об ответственности.</p>
-<footer>© [ГОД] [ИМЯ РАЗРАБОТЧИКА / ЮРЛИЦО]</footer>
+<footer>© 2026 Readiness</footer>
+</div>
 </body>
 </html>
